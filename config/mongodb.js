@@ -9,9 +9,6 @@ const dbConnect = async () => {
         useUnifiedTopology: true,
       }
     );
-    // console.log(
-    //   `Connected to database successfully by ${connect.connection.host}`
-    // );
     return connect;
   } catch (err) {
     console.log(err);
